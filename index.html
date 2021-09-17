@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="content col-md-3 col-sm-6 col-12">
+          <div class="main-content active">
+            <button class="btn btn-outline-primary btn-sm btn-btn">
+              Hediyyeni bagla
+            </button>
+            <div class="pic-container mt-4">
+              <img onmouseover="NormalImg(this)" onmouseout="Hover(this)" class="change" src="./assets/image/1.jpg" alt="" />
+            </div>
+            <div class="text-container mt-3">
+              <p>Təbriklər! Siz, maşın qazandınız.</p>
+              <button onclick="ChangePic(0)" class="btn btn-outline-primary btn-sm change-btn">
+                Fotonu deyish
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="content col-md-3 col-sm-6 col-12">
+          <div class="main-content blur">
+            <button class="btn btn-outline-primary btn-sm btn-btn" id="btn">
+              Hediyyeni ac
+            </button>
+            <div class="pic-container mt-4">
+              <img onmouseover="NormalImg(this)" onmouseout="Hover(this)" class="change" src="./assets/image/2.jpg" alt="" />
+            </div>
+            <div class="text-container mt-3">
+              <p>Təbriklər! Siz, maşın qazandınız.</p>
+              <button onclick="ChangePic(1)" class="btn btn-outline-primary btn-sm change-btn">
+                Fotonu deyish
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="content col-md-3 col-sm-6 col-12">
+          <div class="main-content blur">
+            <button class="btn btn-outline-primary btn-sm btn-btn">
+              Hediyyeni ac
+            </button>
+            <div class="pic-container mt-4">
+              <img onmouseover="NormalImg(this)" onmouseout="Hover(this)" class="change" src="./assets/image/3.jpg" alt="" />
+            </div>
+            <div class="text-container mt-3">
+              <p>Təbriklər! Siz, maşın qazandınız.</p>
+              <button onclick="ChangePic(2)" class="btn btn-outline-primary btn-sm change-btn">
+                Fotonu deyish
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="content col-md-3 col-sm-6 col-12">
+          <div class="main-content blur">
+            <button class="btn btn-outline-primary btn-sm btn-btn">
+              Hediyyeni ac
+            </button>
+            <div class="pic-container mt-4">
+              <img onmouseover="NormalImg(this)" onmouseout="Hover(this)" class="change" src="./assets/image/4.jpg" alt="" />
+            </div>
+            <div class="text-container mt-3">
+              <p>Təbriklər! Siz, maşın qazandınız.</p>
+              <button onclick="ChangePic(3)" class="btn btn-outline-primary btn-sm change-btn">
+                Fotonu deyish
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

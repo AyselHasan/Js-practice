@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  height: 750px;
+}
+
+.container .content {
+  margin: 15% 0;
+}
+
+.container .content .btn {
+  width: 100%;
+  height: 35px;
+}
+
+.container .content img {
+  height: auto;
+  max-width: 100%;
+}
+
+.blur .pic-container, .blur .text-container {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 750px;
+  .content {
+    margin: 15% 0;
+    .btn {
+      width: 100%;
+      height: 35px;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+.blur {
+  .pic-container,
+  .text-container {
+    filter: blur(10px);
+  }
+}
